@@ -1,3 +1,6 @@
 body {
-  background-color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(213, 213, 213);
+  text-align: center;
+  background-color: rgb(70, 70, 70);
 }
