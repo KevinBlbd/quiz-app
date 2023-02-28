@@ -1,6 +1,88 @@
 body {
+  background-color: rgb(75, 75, 75);
+}
+
+header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(213, 213, 213);
   text-align: center;
   background-color: rgb(70, 70, 70);
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  border-style: solid;
+  border-radius: 33px;
+  border-width: 5px;
+  border-color: dimgray;
+  justify-content: center;
+}
+
+.main-content {
+  border-style: solid;
+  display: flex;
+  border-style: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.question {
+  display: flex;
+  border-style: dotted;
+  border-radius: 33px;
+  max-block-size: 10rem;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 450px;
+  height: 250px;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  border-style: hidden;
+  bottom: 0;
+  width: 650px;
+  margin: 0 auto;
+  height: 80px;
+}
+
+ul {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  letter-spacing: 5px;
+  color: aliceblue;
+  column-gap: 50px;
+  list-style-type: circle;
+}
+
+.svg {
+  display: flex;
+  position: sticky;
+  width: 50px;
+  bottom: 0px;
+  height: 30px;
+}
+
+.bookmark-icon {
+  display: flex;
+  /* position: fixed; */
+  left: 433px;
+  color: rgb(160, 95, 95);
+}
+
+.tag {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: center;
 }
