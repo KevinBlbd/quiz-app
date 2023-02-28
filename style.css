@@ -75,8 +75,8 @@ ul {
 
 .bookmark-icon {
   display: flex;
-  position: fixed;
-  left: 430px;
+  /* position: fixed; */
+  left: 433px;
   color: rgb(160, 95, 95);
 }
 
